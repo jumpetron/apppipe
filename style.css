@@ -34,7 +34,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 0 9%;
     padding-top: 7.5rem;
     padding-bottom: 2rem;
@@ -158,6 +158,8 @@ header label{
     color: #666;
     padding: 1rem 0;
 }
+
+/* Feature */
 
 .features .box-container{
     display: flex;
@@ -484,6 +486,8 @@ header label{
     color: var(--pink);
 }
 
+/* Footer */
+
 .footer{
     padding-top: 3rem;
     background: url(images/images/footer-bg.png) no-repeat;
@@ -499,6 +503,59 @@ header label{
 .footer .box-container .box{
     flex: 1 1 25rem;
     margin: 2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .info{
+    display: flex;
+    align-items: center;
+}
+
+.footer .box-container .box .info i{
+    margin: .5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--pink);
+    font-size: 1.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.footer .credit{
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color: #fff;
+    border-top: .1rem solid #fff;
+    padding: 2.5rem 1rem;
+    text-align: center;
 }
 
 
